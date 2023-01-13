@@ -1,0 +1,161 @@
+/* ========= Font Family ========= */
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+/* ========= Global Styles ========= */
+body {
+  font-family: "Work Sans";
+  background-color: #2e2e2e;
+  width: 100%;
+  max-width: 1600px;
+  margin: 1vh auto;
+  padding: 0 5vw;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ========= Header ========= */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 0;
+}
+.logo img {
+  width: 50px;
+}
+.navBarMenu {
+  display: flex;
+  align-items: center;
+}
+.navBarMenu article {
+  padding: 0 50px;
+}
+.navBarMenu a,
+.navBarMenuExperience a {
+  text-decoration: none;
+  color: #ebccc2;
+  padding: 10px;
+
+  transition: all 2s;
+}
+.navBarMenu a:hover {
+  color: white;
+  transition: all 2s;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+.textCenter {
+  font-size: 3rem;
+  padding: 15vh 0 15vh 20%;
+  color: white;
+}
+.img img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 10px rgb(165, 137, 127);
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25vh 0;
+}
+.imgContainer img {
+  width: 650px;
+  max-width: 100%;
+  box-shadow: 0 0 10px 10px rgb(20, 20, 20);
+  border-radius: 2px;
+}
+
+.textContainer {
+  width: 100%;
+  max-width: 550px;
+}
+
+.textContainer p:first-of-type {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+.textContainer p:last-of-type {
+  font-size: 1.2rem;
+  color: #ebccc2;
+  opacity: 0.6;
+  padding: 3px;
+}
+/* ========= Main ========= */
+
+/* ========= header - Lounger && Experience ========= */
+.navBarMenuLonger,
+.navBarMenuExperience {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5vh 0 15vh;
+}
+.navBarMenuLonger a,
+.navBarMenuExperience a {
+  text-decoration: none;
+  color: #ebccc2;
+  padding: 0 10px;
+  width: max-content;
+  font-size: 0.9rem;
+  transition: all 2s;
+}
+.navBarMenuExperience a:hover,
+.navBarMenuLonger a:hover {
+  color: white;
+  transition: all 2s;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+.textLoungerAlign,
+.textExperienceAlign {
+  width: 100%;
+  max-width: 550px;
+}
+.flexLounger,
+.flexExperience {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.logoUndBackground,
+.logoUndBackgroundEx {
+  background-image: url("../img/section-voyager.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin-right: 40px;
+}
+.logoUndBackgroundEx {
+  background-image: url("../img/section-experience-1.jpg");
+}
+.logoUndBackgroundEx img {
+  padding: 3vh 5vw 0;
+}
+.textLoungerAlign p:first-of-type,
+.textExperienceAlign p:first-of-type {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 15vh;
+}
+.textLoungerAlign p:nth-of-type(8),
+.textExperienceAlign p:nth-of-type(6) {
+  padding-top: 20px;
+}
+.textLoungerAlign p:nth-of-type(11) {
+  padding-top: 40px;
+}
+.textLoungerAlign p,
+.textExperienceAlign p {
+  color: #ebccc2;
+  padding: 5px;
+}
+
+/* ========= header - Lounger ========= */
