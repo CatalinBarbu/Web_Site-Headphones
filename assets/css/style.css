@@ -136,7 +136,8 @@ body {
 .logoUndBackgroundEx {
   background-image: url("../img/section-experience-1.jpg");
 }
-.logoUndBackgroundEx img {
+.logoUndBackgroundEx img,
+.logoUndBackground img {
   padding: 3vh 5vw 0;
 }
 .textLoungerAlign p:first-of-type,
